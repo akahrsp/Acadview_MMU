@@ -3,7 +3,6 @@ from global_var import select_friend
 from steganography.steganography import Steganography
 from datetime import datetime
 def send_message() :
-    print "Select Friend"
     if len(friend_name)!= 0 :
         print "Select friend to send message"
         select = select_friend()
