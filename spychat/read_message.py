@@ -6,7 +6,7 @@ from global_var import select_friend
 def read_message():
 
     select = select_friend()
-    image = raw_input("Name of the image in which message is hidden")
+    image = raw_input("Name of the image in which messages are hidden")
     msg = Steganography.decode(image)
 
 
