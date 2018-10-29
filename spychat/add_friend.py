@@ -23,7 +23,7 @@ def add_friend() :
         while x < len(friend_name) :
             print str(x+1) + ". " + spy_add[x].name
             x += 1
-        i[count].name = raw_input('What is your friend\'s name ? ')
+        i[count].name = raw_input('Whats your friend\'s name ? ')
         if len(i[count].name) > 0:
             # name length cannot be null
             name_validation = '^[a-zA-z]+\s*[a-zA-z\s]*$'
