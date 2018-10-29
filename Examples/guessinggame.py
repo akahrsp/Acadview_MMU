@@ -16,4 +16,4 @@ while (ch != "n") :
         break
     i = i + 1
     print "no of tries = %d" % (i)
-    ch = raw_input("you wanna play or exit (y/n): - ")
+    ch = raw_input("you wanna play or exit (y/n):")
