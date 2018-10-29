@@ -1,4 +1,4 @@
-num = int(raw_input("Enter place upto "))
+num = int(raw_input("Enter places upto "))
 i = 1
 a = 0
 while (i <= num) :
