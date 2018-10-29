@@ -1,4 +1,4 @@
-num = int(raw_input("Enter the decimal no to convert into hexadecimal : - "))
+num = int(raw_input("Enter the decimal no to convert into hexadecimal - "))
 i = 0
 hex = []
 while (num != 0) :
